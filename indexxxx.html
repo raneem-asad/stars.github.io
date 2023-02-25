@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stars</title>
+    <link rel="stylesheet" href="./fp.css">
+    <link rel="icon" type="image/x-icon" href="./star.jpeg">
+    <link rel="stylesheet" href="./animate.css">
+</head>
+<body>
+ 
+ <video id="myvideo" controls width="100%" autoplay >
+         <source src="./img/Our Solar System [4K].mp4">
+</video> 
+
+<Nav class="navbar">
+        <div class="logo">stars</div>
+        <ul class="nav-bar">
+            <li class="nav-item">
+                <li class="nav-item">  <a class="nav-link" href="./about.html">about us</a></li>
+                <li class="nav-item">  <a class="nav-link" href="./index.html">home</a></li>
+        </ul>
+    </Nav>    
+            <div class="p1"> 
+                <h1><em><strong> astronomy </strong></em></h1>
+                    <span>"In the past, astronomy has been used to measure time, mark the seasons, and navigate the vast oceans. As one of the oldest sciences astronomy is part of every culture's history and roots. It inspires us with beautiful images and promises answers to the big questions".</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr style="color:white; margin: 40px; ">
+    <br>
+    <div>
+        <img src="./img/star.jpeg" alt="space" width="800" height="500" class="img1">
+        <p class="p2"><em><strong>let's start with the beginning of the universe ...</strong></em><br>
+             The best-supported theory of our universe's origin centers on an event known as the big bang. This theory was born of the observation that other galaxies are moving away from our own at great speed in all directions, as if they had all been propelled by an ancient explosive force.
+            <br> <br>he Big Bang Theory is the leading explanation for how the universe began. Simply put, it says the universe as we know it started with an infinitely hot and dense single point that inflated and stretched — first at unimaginable speeds, and then at a more measurable rate — over the next 13.7 billion years to the still-expanding cosmos that we know today.
+        </p>
+   
+            </div>
+ 
+<hr style="color:white; margin: 40px; ">
+
+
+<hr style="color:white; margin: 40px; ">
+
+<div>
+<p class="p3"><em><strong> 1- Have you ever asked yourself what would happen if the earth stopped rotating?<br></strong></em><br> , says Jim Zimbelman, a geologist in the Center for Earth and Planetary Studies at the National Air and Space Museum, and no physical mechanism on earth can supply that.
+<br>It wouldn’t be good. At the Equator, the earth’s rotational motion is at its fastest, about a thousand miles an hour. If that motion suddenly stopped, the momentum would send things flying eastward. Moving rocks and oceans would trigger earthquakes and tsunamis. The still-moving atmosphere would scour landscapes.
+</p>
+<p class="p4"> 2-  i want you to imagine how it is going to be ... </p>
+<p class="p5"> 3 - OKAAY.... DO NOT TO WORRY: Such an event would require the same amount of energy stored in the momentum of everything on our rotating planet </p>
+<br><br><br>
+</div>
+<div class="slider">
+    <div class="slide-track">
+        <div class="slide"> <img src="./img/m1.jpg" alt="mercury" > </div>
+        <div class="slide"> <img src="./img/vvv2.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/e3.png" alt=""></div>
+        <div class="slide"> <img src="./img/ma4.jpg" alt=""></div>
+
+        <div class="slide"> <img src="./img/j5.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/s6.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/uuuu7.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/n8.jpg" alt=""></div>
+
+
+        <div class="slide"> <img src="./img/m1.jpg" alt="mercury" ></div>
+        <div class="slide"> <img src="./img/vvv2.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/vvv2.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/e3.png" alt=""></div>
+        <div class="slide"> <img src="./img/ma4.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/j5.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/s6.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/uuuu7.jpg" alt=""></div>
+        <div class="slide"> <img src="./img/n8.jpg" alt=""></div>
+
+        </div>
+
+</div>
+   <!-- <div class="box">
+    <img src="./img/m1.jpg" alt="mercury" class="img2">
+    <img src="./img/vvv2.jpg" alt="" class="img2">
+    <img src="./img/e3.png" alt="" class="img2">
+    <img src="./img/ma4.jpg" alt="" class="img2">
+    <img src="./img/j5.jpg" alt="" class="img3">
+    <img src="./img/s6.jpg" alt="" class="img3">
+    <img src="./img/uuuu7.jpg" alt="" class="img4">
+    <img src="./img/n8.jpg" alt="" class="img4"></div> -->
+
+<div id="myPlot" style="width:100%;max-width:1350px; margin-top:450px;"></div>
+<script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+
+   <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyB5L_s5tQc3VXZ9lJBWFSFx79N64CNREPo",
+          authDomain: "fir-267b4.firebaseapp.com",
+          projectId: "fir-267b4",
+          storageBucket: "fir-267b4.appspot.com",
+          messagingSenderId: "724426855374",
+          appId: "1:724426855374:web:9c0037bbd896befea2519f",
+          measurementId: "G-68N0Q68166"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      <script src="./wow.min.js"></script>
+      <script src="./fp.js" type="module"></script>
+       <!-- <div class="class bg-blue"></div> -->
+</body>
+</html>

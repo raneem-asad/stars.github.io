@@ -1,0 +1,272 @@
+body{
+    margin:0 ;
+    padding:0 ;
+    font-family:arial ;
+    background-color: rgb(0, 6, 15);
+    color: cornsilk;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width:1375px ;
+    height: 80px;
+    padding: 5px 9px;
+    box-sizing: border-box ;
+    background: rgba(0, 0, 0, 0.37);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.logo{
+    padding:22px 20px ;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform:uppercase ;
+    color: rgba(234, 234, 255, 0.918);
+    float:left;
+    font-family: Cursive	 ;
+
+}
+.nav-item
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+.nav-link{
+    line-height:15px;
+    color: white ;
+    padding:12px 30px ;
+    text-decoration: none ;
+    font-size: 15px;
+    font-weight:bold ;
+    text-transform:uppercase ;
+}
+.nav-link a:hover{
+    background-color:rgba(0, 0, 0, 0.568); 
+     border: 6px; 
+ } 
+#myVideo{
+    width:100%;
+    height:100% ;
+    background: url(./Our\ Solar\ System\ [4K].mp4); 
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+} 
+.p1{
+   font-size:20px;
+   font-family: Cursive	 ;
+   width: 850px;
+   text-align: center;
+   overflow: hidden;
+   margin-left: 400px;
+   background-image: url(./img/astronomy.jpg);
+   text-align: center;
+   padding: 150px;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: auto;
+   
+   
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin:auto;
+    font-family: Cursive ;
+    padding: 50px 15px;
+
+    
+}
+
+.p2{
+    background-color: rgba(47, 79, 79, 0.281);
+    text-transform:uppercase ;
+    font-family: cursive;
+    box-sizing: border-box;
+    margin-top: -400px;
+    margin-left: 500px;
+    width:800px ;
+    height: 400px;
+    font-size: 15px;
+    padding: 20px;
+}
+.p3{
+    background-color: rgba(47, 79, 79, 0.281);
+    text-transform:uppercase ;
+    font-family: cursive;
+    box-sizing: border-box;
+    width:600px ;
+    height: 450px;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    margin-left: 80px;
+}
+.p4{
+    background-color: rgba(47, 79, 79, 0.281);
+    font-family: cursive;
+    box-sizing: border-box;
+    width:300px ;
+    height: 100px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    float: right;
+    margin-top: 100px;
+}
+.p5{
+    background-color: rgba(47, 79, 79, 0.281);
+    font-family: cursive;
+    box-sizing: border-box;
+    width:400px ;
+    height: 200px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    float: right;
+}
+.sf{
+    font-family: cursive;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin:auto ;
+    width: 800px;
+    padding: 50px;
+    background-color: rgba(76, 97, 112, 0.541);
+    border-radius: 0px 100px 0px 100px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.541);
+    margin: auto;
+
+}
+#form{
+    border: solid black;
+    border-radius:20px ;
+}
+#sub{
+    background-image: url(./img/download.jfif);
+    color: aliceblue;
+    width: 75px;
+
+}
+.p6{
+    background-color: rgba(76, 97, 112, 0.541);
+    font-family: cursive;
+    box-sizing: border-box;
+    width: 450px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 100px;
+    color: aliceblue;
+
+}
+/* 
+.box{
+    border: solid black;
+    background-image: url(./img/BfemybeKVXCf9pgX9WCxsc.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 500px;
+ }
+ .img2{
+    margin-left: 30px;
+    border: solid black;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.541);
+
+}
+.img3{
+    margin-left:30px;
+    border: solid black;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.541);
+
+}
+.img4{
+    margin: auto;
+    border: solid black;
+    width: 430px;
+    height: 300px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.541);
+
+} */
+.slider{
+    height: 250px;
+    margin: auto;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+}
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+.slide-track::hover{
+    animation-play-state: paused;
+    opacity: 1;
+
+}
+@keyframes scroll {
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *9));
+    }
+}
+.slide{
+    height:200px ;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding:15px ;
+    perspective: 100px;
+ }
+ img{
+    width: 100%;
+    transition: transform 2s;
+ }
+ img:hover{
+    transform: translate(20px);
+ }
+ .slider::before,
+ .slide::after{
+    background: linear-gradient(to right white),rgba(255, 255, 255, 0.541);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+ }
+ .slider::before{
+    left: 0;
+    top: 0;
+ }
+ .slide::after{
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
+ }
+ .img1{
+    background: url(./img1.jfif);
+     background-repeat:no-repeat ;
+     width: 800px;
+     height: 500px;
+     box-sizing: content-box;}
